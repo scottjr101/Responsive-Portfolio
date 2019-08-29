@@ -231,6 +231,7 @@ input[type=submit]:hover {
     }
     .main_class {
         max-width: 600px;
+        margin-bottom: 70px;
     }
     main {
         position: static;
@@ -247,6 +248,20 @@ input[type=submit]:hover {
     }
     #copyright {
         padding-top: 5px;
+    }
+    #rpg_game {
+        margin-left: 35px;
+    }
+    #trivia_game {
+        margin-left: 25px;
+    }
+    #rutgers {
+        margin-left: 35px;
+        margin-bottom: 10px;
+    }
+    #rock_paper {
+        margin-left: 25px;
+        margin-top: 18px;
     }
 }
 
