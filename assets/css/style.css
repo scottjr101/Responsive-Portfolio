@@ -54,6 +54,7 @@ header {
 
 .main_class {
     max-width: 960px;
+    width: 100%;
     margin: auto;
     background-color: #ffffff;
     border: 2px solid #dddddd;
@@ -230,14 +231,11 @@ input[type=submit]:hover {
         max-width: 850px;
     }
     .main_class {
-        max-width: 600px;
+        max-width: 850px;
         margin-bottom: 70px;
     }
     main {
-        position: static;
         float: left;
-        margin-left: 50px;
-        margin-top: 116px;
     }
     #paragraph {
         line-height: 25px;
@@ -266,7 +264,24 @@ input[type=submit]:hover {
 }
 
 @media screen and (max-width: 768px) {
-    
+    .header_class {
+        max-width: 710px;
+    }
+    main {
+        position: absolute;
+        float: center;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .main_class {
+        max-width: 710px;
+    }
+    #rpg_game {
+        margin-left: 148px;
+    }
+    #rutgers {
+        margin-left: 148px;
+    }
 }
 
 @media screen and (max-width: 640px) {
