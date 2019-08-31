@@ -231,11 +231,13 @@ input[type=submit]:hover {
         max-width: 850px;
     }
     .main_class {
-        max-width: 850px;
+        max-width: 600px;
         margin-bottom: 70px;
     }
     main {
         float: left;
+        position: absolute;
+        right: 250px;
     }
     #paragraph {
         line-height: 25px;
@@ -265,12 +267,11 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 768px) {
     .header_class {
-        max-width: 710px;
+        width: 710px;
     }
     main {
-        position: absolute;
-        float: center;
-        margin-left: 10px;
+        width: 710px;
+        margin-left: 20px;
         margin-right: 10px;
     }
     .main_class {
@@ -286,6 +287,46 @@ input[type=submit]:hover {
 
 @media screen and (max-width: 640px) {
     header {
-        position: static;
+        height: 120px;
+    }
+    #name {
+        height: 60px;
+        padding-top: 0px;
+        padding-bottom: 7px;
+        float: left;
+        width: 640px;
+    }
+    #nav {
+        height: 60px;
+        width: 496px;
+        float: center;
+        padding: 14px 0px 0px 0px;
+    }
+    main {
+        width: 585px;
+        margin-left: 11px;
+    }
+    .main_class {
+        width: 585px;
+    }
+    #hangman {
+        margin-right: 10px;
+        margin-left: 175px;
+    }
+    #rpg_game {
+        margin-right: 10px;
+        margin-left: 175px;
+    }
+    #trivia_game {
+        margin-right: 10px;
+        margin-left: 175px;
+    }
+    #rutgers {
+        margin-right: 10px;
+        margin-left: 175px;
+    }
+    #rock_paper {
+        margin-right: 10px;
+        margin-left: 175px;
     }
 }
